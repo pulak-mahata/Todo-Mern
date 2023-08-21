@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Ubuntu&display=swap');
+
+body {
+  width: 50%;
+  margin: 0 auto;
+  
+  background: url('../public/new.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Noto Sans', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+
+}
+
+body ba url {
+  opacity: 0.4;
+}
+
+
+header {
+  text-align: center;
+  /* background-color: #279EFF; */
+  
+}
+
+header h1 {
+  font-size: 90px;
+  /* color: #AFD3E2; */
+  color: #F8B400;
+  /* color:#279EFF ; */
+  font-weight: 400;
+  margin-bottom: 15px;
+  font-family: 'Noto Sans', sans-serif;
+font-family: 'Roboto Slab', serif;
+}
+
+input {
+  font-size: 20px;
+  color: #2c3e50;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #2c3e50;
+  padding: 5px;
+}
+
+.task {
+  /* background-color: #34495e; */
+  background-color: white;
+  padding: 15px;
+  margin: 5px;
+  overflow-x: hidden;
+  border-radius: 5px;
+  cursor: pointer;
+  /* color:black; */
+  font-weight: 500;
+}
+
+.task span {
+  color: black;
+  font-weight: bolder;
+ 
+}
+
+.icon {
+  float: right;
+  margin-right: 20px;
+}
+
+article {
+  display: grid;
+}
+
+.edit-todo {
+  width: 85%;
+  font-size: 16px;
+  color: black;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #FFFFFF;
+  font-weight: 500;
+}
+
+.button {
+  margin: 0 10px;
+  padding: 8px;
+  font-size: 14px;
+  color: white;
+  /* color: #6c6777; */
+  background-color: #279EFF;
+  /* background-color: #2B2A4C; */
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.button.selected {
+  color: #FFF;
+  /* background-color: #6c6777; */
+  /* background-color: #A4907C; */
+  background-color: #331D2C;
+  
+}
+
+.button.clear {
+  float: right;
+  color: #FFF;
+  background-color: #ee1630;
+  width: 170px;
+}
+
+/* respponisve design */
+
+@media (max-width: 800px) {
+  
+  body {
+    width: 100%;
+    margin: 0 auto;
+    background: none;
+    background-color: #97DECE;
+    /* background-color: #FFBF00; */
+  }
+  header h1 {
+    font-size: 60px;
+    
+    color: #2c3e50;
+    font-weight: 300;
+  }
+}
